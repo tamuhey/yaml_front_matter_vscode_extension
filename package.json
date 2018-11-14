@@ -1,8 +1,8 @@
 {
-    "name": "yaml-sign",
-    "displayName": "Yaml Sign",
+    "name": "yaml-front-matter",
+    "displayName": "YAML-fm",
     "description": "",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "tamuhey",
     "engines": {
         "vscode": "^1.28.0"
@@ -11,14 +11,14 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:yaml_sign.sign"
+        "onCommand:yaml_fm.insert"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "yaml_sign.sign",
-                "title": "Yaml Sign"
+                "command": "yaml_fm.insert",
+                "title": "YAML-fm insert"
             }
         ],
         "configuration": [
@@ -26,7 +26,7 @@
                 "type": "object",
                 "title": "config ",
                 "properties": {
-                    "yaml_sign.author": {
+                    "yaml_fm.author": {
                         "type":"string",
                         "default":null
                     }

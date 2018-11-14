@@ -1,10 +1,10 @@
-# Yaml Sign README
+# YAML front-Matter README
 
-VS Code extension for yaml sign on file.
+VS Code extension to insert YAML front-matter into text file.
 
 ## Features
 
-- `Yaml Sign` insert a yaml formatter top of the file, that's all
+- `YAML-fm Insert` insert YAML front-matter into top of the file, that's all.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ VS Code extension for yaml sign on file.
 
 This extension contributes the following settings:
 
-- `yaml_sign.author`: your name
+- `yaml_fm.author`: your name
 
 ## Release Notes
 
