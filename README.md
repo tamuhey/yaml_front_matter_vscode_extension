@@ -1,4 +1,4 @@
-# YAML front-Matter README
+# YAML front-Matter VS Code Extension
 
 VS Code extension to insert YAML front-matter into text file.
 
