@@ -4,7 +4,7 @@ VS Code extension to insert YAML front-matter into text file.
 
 ## Install
 
-- download \*.vsix, and see the docs
+- download \*.vsix, and see the [docs](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix)
 
 ## Features
 
