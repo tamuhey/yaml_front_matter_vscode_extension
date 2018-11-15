@@ -20,6 +20,8 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showErrorMessage("Please config `yaml_fm.author`");
         return;
       }
+
+      // body 
       let body=`---
 author: ${author}
 date: ${date}
@@ -29,7 +31,9 @@ date: ${date}
         edit.insert(new vscode.Position(0, 0), body);
       });
 }
-  );}
+  );
+  context.subscriptions.push(disposable);
+}
 
 export function deactivate() {
 }
